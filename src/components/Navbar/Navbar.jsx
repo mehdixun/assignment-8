@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
     return (
-        <div className='bg-white'>
+        <div className='bg-white shadow-sm'>
           <div className="navbar  mb-20 max-w-[1200px] mx-auto">
   <div className="navbar-start">
     <div className="dropdown">
@@ -17,7 +17,7 @@ const Navbar = () => {
         
         <li>
           
-          <ul className="p-2">
+          <ul className="p-2 text-gray-700">
             <li><a>Home</a></li>
             <li><a>Apps</a></li>
             <li><a>Instalation</a></li>
@@ -32,12 +32,12 @@ const Navbar = () => {
     </a>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1 font-semibold">
-      <li><a>Home</a></li>
-      <li>
+    <ul className="menu menu-horizontal px-1 font-semibold text-gray-500 ">
+      <li className='hover:underline hover:text-indigo-600'><a>Home</a></li>
+      <li className='hover:underline hover:text-indigo-600'>
         <a>Apps</a>
       </li>
-      <li><a>Instalation</a></li>
+      <li className='hover:underline hover:text-indigo-600'><a>Instalation</a></li>
     </ul>
   </div>
   <div className="navbar-end">
