@@ -1,6 +1,7 @@
 import React from 'react';
 import logoImg from '../../assets/logo.png'
 import { FaGithub } from "react-icons/fa";
+import { Link } from 'react-router';
 
 const Navbar = () => {
     return (
@@ -28,12 +29,16 @@ const Navbar = () => {
     </div>
     <a className="text-xl flex items-center">
         <img className='h-[40px] w-[40px]' src={logoImg} alt="" />
+        <Link to='/'>
         <h3 className='text-indigo-600 font-bold ml-1'>HERO.IO</h3>
+        </Link>
     </a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 font-semibold text-gray-500 ">
+      <Link to='/'>
       <li className='hover:underline hover:text-indigo-600'><a>Home</a></li>
+      </Link>
       <li className='hover:underline hover:text-indigo-600'>
         <a>Apps</a>
       </li>
