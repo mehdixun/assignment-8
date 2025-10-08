@@ -1,0 +1,128 @@
+[
+    {
+    "image": "https://i.ibb.co.com/2YtncGw/app9.png",
+    "title": "CodeNest",
+    "companyName": "DevHub",
+    "id": 9,
+    "description": "A code editor and compiler that works right in your browser.",
+    "size": 120,
+    "reviews": 2800,
+    "ratingAvg": 4.6,
+    "downloads": 170000,
+    "ratings": [
+      { "name": "1 star", "count": 65 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1545 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qMD3HRr/app10.png",
+    "title": "NewsPulse",
+    "companyName": "Daily Updates",
+    "id": 10,
+    "description": "Stay updated with breaking news and personalized alerts.",
+    "size": 55,
+    "reviews": 1100,
+    "ratingAvg": 4.1,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 390 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/dQhm0Sp/app11.png",
+    "title": "ShopVerse",
+    "companyName": "BuyEasy",
+    "id": 11,
+    "description": "Explore thousands of products and get amazing deals.",
+    "size": 90,
+    "reviews": 1900,
+    "ratingAvg": 4.5,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 990 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/bHfL5Hf/app12.png",
+    "title": "DocuSafe",
+    "companyName": "CloudLock",
+    "id": 12,
+    "description": "Store your documents securely and access them anywhere.",
+    "size": 75,
+    "reviews": 850,
+    "ratingAvg": 4.3,
+    "downloads": 56000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 280 },
+      { "name": "5 star", "count": 360 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Fw4Dg8V/app13.png",
+    "title": "MindNotes",
+    "companyName": "Zen Labs",
+    "id": 13,
+    "description": "A minimal and powerful note-taking app with cloud sync.",
+    "size": 35,
+    "reviews": 650,
+    "ratingAvg": 4.4,
+    "downloads": 47000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 220 },
+      { "name": "5 star", "count": 265 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/0sGJhvC/app14.png",
+    "title": "QuizRush",
+    "companyName": "BrainyPlay",
+    "id": 14,
+    "description": "Challenge yourself with fun quizzes and earn rewards.",
+    "size": 65,
+    "reviews": 1300,
+    "ratingAvg": 4.6,
+    "downloads": 88000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 650 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/g7jR0n6/app15.png",
+    "title": "LangLearn",
+    "companyName": "Polyglot Tech",
+    "id": 15,
+    "description": "Learn new languages fast with interactive lessons.",
+    "size": 80,
+    "reviews": 1750,
+    "ratingAvg": 4.7,
+    "downloads": 134000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 890 }
+    ]
+  }
+]

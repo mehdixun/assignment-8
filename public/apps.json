@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://i.ibb.co.com/ZRQLLcnX/demo-app-1.webp",
+    "title": "Forest: Focus for Productivity",
+    "companyName": "NextGen Solutions",
+    "id": 1,
+    "description": "A smart task management app that helps teams collaborate efficiently.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.6,
+    "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 700 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/hF1xHSJn/demo-app-2.webp",
+    "title": "SmPlan:ToDo List with Reminder",
+    "companyName": "Delish Labs",
+    "id": 2,
+    "description": "Order your favorite food from nearby restaurants with exclusive offers.",
+    "size": 60,
+    "reviews": 800,
+    "ratingAvg": 4.2,
+    "downloads": "120K",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 370 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/jvxF2Tbh/demo-app-3.webp",
+    "title": "FLIP - Focus Timer for Study",
+    "companyName": "Bright Minds",
+    "id": 3,
+    "description": "Learn new skills and courses from top educators all over the world.",
+    "size": 85,
+    "reviews": 2000,
+    "ratingAvg": 4.8,
+    "downloads": "12M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/QFWVgRWf/demo-app-4.webp",
+    "title": "Pomocat - Cute Pomodoro Timer",
+    "companyName": "Healthify Co.",
+    "id": 4,
+    "description": "Track your fitness goals, calories, and daily activities easily.",
+    "size": 50,
+    "reviews": 1500,
+    "ratingAvg": 4.4,
+    "downloads": "780K",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 700 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/k2NTsrRn/demo-app-5.webp",
+    "title": "Time Planner: Schedule & Tasks",
+    "companyName": "Wanderlust Inc.",
+    "id": 5,
+    "description": "Plan your trips, find destinations, and book hotels in one place.",
+    "size": 70,
+    "reviews": 900,
+    "ratingAvg": 4.5,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 390 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vCG9H9BJ/demo-app-6.webp",
+    "title": "Morning Habits - Daily Routine",
+    "companyName": "Smart Finance",
+    "id": 6,
+    "description": "Manage your budget and track expenses like a pro.",
+    "size": 40,
+    "reviews": 700,
+    "ratingAvg": 4.3,
+    "downloads": "980K",
+    "ratings": [
+      { "name": "1 star", "count": 18 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 292 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/hF1xHSJn/demo-app-2.webp",
+    "title": "Focus Plant: Pomodoro Forest",
+    "companyName": "Wave Audio",
+    "id": 7,
+    "description": "Stream and download your favorite music anytime, anywhere.",
+    "size": 95,
+    "reviews": 2300,
+    "ratingAvg": 4.7,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1230 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/k2NTsrRn/demo-app-5.webp",
+    "title": "Alarmy - Alarm Clock & Sleep",
+    "companyName": "Pixel Studio",
+    "id": 8,
+    "description": "Quick and powerful photo editing with filters and effects.",
+    "size": 110,
+    "reviews": 3100,
+    "ratingAvg": 4.9,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1750 }
+    ]
+  }
+]
