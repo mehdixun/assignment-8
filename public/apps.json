@@ -1,146 +1,146 @@
 [
   {
-    "image": "https://i.ibb.co.com/ZRQLLcnX/demo-app-1.webp",
-    "title": "Forest: Focus for Productivity",
-    "companyName": "NextGen Solutions",
+    "image": "https://i.ibb.co.com/7Jgz3cbr/facebook.png",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
     "id": 1,
-    "description": "A smart task management app that helps teams collaborate efficiently.",
-    "size": 45,
-    "reviews": 1200,
-    "ratingAvg": 4.6,
-    "downloads": "2M",
-    "ratings": [
-      { "name": "1 star", "count": 30 },
-      { "name": "2 star", "count": 50 },
-      { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 700 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/hF1xHSJn/demo-app-2.webp",
-    "title": "SmPlan:ToDo List with Reminder",
-    "companyName": "Delish Labs",
-    "id": 2,
-    "description": "Order your favorite food from nearby restaurants with exclusive offers.",
-    "size": 60,
-    "reviews": 800,
+    "description": "Connect with friends, family and people around the world on Facebook.",
+    "size": "120MB",
+    "reviews": 5000000,
     "ratingAvg": 4.2,
-    "downloads": "120K",
+    "downloads": "5B",
     "ratings": [
-      { "name": "1 star", "count": 20 },
-      { "name": "2 star", "count": 40 },
-      { "name": "3 star", "count": 110 },
-      { "name": "4 star", "count": 260 },
-      { "name": "5 star", "count": 370 }
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 2600000 }
     ]
   },
   {
-    "image": "https://i.ibb.co.com/jvxF2Tbh/demo-app-3.webp",
-    "title": "FLIP - Focus Timer for Study",
-    "companyName": "Bright Minds",
-    "id": 3,
-    "description": "Learn new skills and courses from top educators all over the world.",
-    "size": 85,
-    "reviews": 2000,
-    "ratingAvg": 4.8,
-    "downloads": "12M",
-    "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 180 },
-      { "name": "4 star", "count": 500 },
-      { "name": "5 star", "count": 1200 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/QFWVgRWf/demo-app-4.webp",
-    "title": "Pomocat - Cute Pomodoro Timer",
-    "companyName": "Healthify Co.",
-    "id": 4,
-    "description": "Track your fitness goals, calories, and daily activities easily.",
-    "size": 50,
-    "reviews": 1500,
-    "ratingAvg": 4.4,
-    "downloads": "780K",
-    "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 500 },
-      { "name": "5 star", "count": 700 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/k2NTsrRn/demo-app-5.webp",
-    "title": "Time Planner: Schedule & Tasks",
-    "companyName": "Wanderlust Inc.",
-    "id": 5,
-    "description": "Plan your trips, find destinations, and book hotels in one place.",
-    "size": 70,
-    "reviews": 900,
-    "ratingAvg": 4.5,
-    "downloads": "5M",
-    "ratings": [
-      { "name": "1 star", "count": 25 },
-      { "name": "2 star", "count": 55 },
-      { "name": "3 star", "count": 130 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 390 }
-    ]
-  },
-  {
-    "image": "https://i.ibb.co.com/vCG9H9BJ/demo-app-6.webp",
-    "title": "Morning Habits - Daily Routine",
-    "companyName": "Smart Finance",
-    "id": 6,
-    "description": "Manage your budget and track expenses like a pro.",
-    "size": 40,
-    "reviews": 700,
+    "image": "https://i.ibb.co.com/bgr9MZS7/messenger.png",
+    "title": "Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 2,
+    "description": "Chat and video call your friends instantly with Messenger.",
+    "size": "100MB",
+    "reviews": 3000000,
     "ratingAvg": 4.3,
-    "downloads": "980K",
+    "downloads": "1B",
     "ratings": [
-      { "name": "1 star", "count": 18 },
-      { "name": "2 star", "count": 40 },
-      { "name": "3 star", "count": 100 },
-      { "name": "4 star", "count": 250 },
-      { "name": "5 star", "count": 292 }
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 1500000 }
     ]
   },
   {
-    "image": "https://i.ibb.co.com/hF1xHSJn/demo-app-2.webp",
-    "title": "Focus Plant: Pomodoro Forest",
-    "companyName": "Wave Audio",
-    "id": 7,
-    "description": "Stream and download your favorite music anytime, anywhere.",
-    "size": 95,
-    "reviews": 2300,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 3,
+    "description": "Share photos and videos with your friends and followers.",
+    "size": "150MB",
+    "reviews": 4000000,
+    "ratingAvg": 4.5,
+    "downloads": "2B",
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 350000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 2050000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ZpTpRQPC/tiktok.png",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 4,
+    "description": "Make short videos and share with millions around the world.",
+    "size": "80MB",
+    "reviews": 6000000,
     "ratingAvg": 4.7,
-    "downloads": "3M",
+    "downloads": "3B",
     "ratings": [
-      { "name": "1 star", "count": 60 },
-      { "name": "2 star", "count": 90 },
-      { "name": "3 star", "count": 220 },
-      { "name": "4 star", "count": 700 },
-      { "name": "5 star", "count": 1230 }
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 3200000 }
     ]
   },
   {
-    "image": "https://i.ibb.co.com/k2NTsrRn/demo-app-5.webp",
-    "title": "Alarmy - Alarm Clock & Sleep",
-    "companyName": "Pixel Studio",
-    "id": 8,
-    "description": "Quick and powerful photo editing with filters and effects.",
-    "size": 110,
-    "reviews": 3100,
-    "ratingAvg": 4.9,
-    "downloads": "7M",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 5,
+    "description": "Send messages, voice notes and make video calls worldwide.",
+    "size": "120MB",
+    "reviews": 7000000,
+    "ratingAvg": 4.6,
+    "downloads": "5B",
     "ratings": [
-      { "name": "1 star", "count": 70 },
-      { "name": "2 star", "count": 80 },
-      { "name": "3 star", "count": 300 },
-      { "name": "4 star", "count": 900 },
-      { "name": "5 star", "count": 1750 }
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 2200000 },
+      { "name": "5 star", "count": 3600000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/MkbcSzkQ/snapchat.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 6,
+    "description": "Send snaps, chat, and discover stories from friends and creators.",
+    "size": "90MB",
+    "reviews": 2500000,
+    "ratingAvg": 4.1,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 1600000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/mFYqpmVc/spotify.png",
+    "title": "Spotify",
+    "companyName": "Spotify Ltd.",
+    "id": 7,
+    "description": "Stream music and podcasts for free, or go premium for ad-free experience.",
+    "size": "110MB",
+    "reviews": 3500000,
+    "ratingAvg": 4.5,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 1000000 },
+      { "name": "5 star", "count": 2100000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/h11mTHZF/youtube.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 8,
+    "description": "Watch videos, subscribe to channels, and share with friends worldwide.",
+    "size": "150MB",
+    "reviews": 5000000,
+    "ratingAvg": 4.6,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1700000 },
+      { "name": "5 star", "count": 2800000 }
     ]
   }
 ]

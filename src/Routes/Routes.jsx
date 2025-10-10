@@ -4,8 +4,8 @@ import Root from '../Root/Root';
 import Errorpage from '../Errorpage/Errorpage';
 import Banner from '../components/Banner/Banner';
 import Home from '../Home/Home';
-import Appdetail from '../Allapps/Appdetail';
-import Allapps from '../Allapps/Allapps';
+import Appdetail from '../Allapp/Appdetail';
+import Allapps from '../Allapp/Allapps';
 
 export const router = createBrowserRouter([
   {
@@ -21,10 +21,12 @@ export const router = createBrowserRouter([
         },
         {
           path:'/allapps',
+          loader:()=> fetch('allapps.json'),
           Component: Allapps
         },
         {
           path:'/appdetail/:id',
+          loader:()=> fetch('allapps.json'),
           Component: Appdetail
         }
     ]

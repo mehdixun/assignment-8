@@ -5,19 +5,19 @@ import { Link } from 'react-router';
 
 const Allapp = ({allApp}) => {
     const {title, image, id,  ratingAvg, downloads} = allApp;
-    console.log(allApp)
+    
     return (
-        <div className=''>
+        <div className='transition-transform duration-300 hover:scale-105'>
             
             <Link to={`/appdetail/${id}`}>
-            <div className="card bg-base-100 shadow-sm p-3 rounded lg:h-[380px]">
+            <div className="card bg-base-100 shadow-sm p-3 rounded-xl h-[300px] lg:h-[340px]">
   <figure className=''>
-    <img className='rounded' src={image} alt="" />
+    <img className='rounded h-[100px] lg:h-[200px]' src={image} alt="" />
   </figure>
   <div className="">
-    <h2 className="">
+    <h2 className="text-center text-xl">
       
-      <div className="text-gray-600 my-3">{title}</div>
+      <div className="font-bold my-5">{title}</div>
     </h2>
     <p></p>
     <div className="flex justify-between items-center text-green-400 font-bold">
