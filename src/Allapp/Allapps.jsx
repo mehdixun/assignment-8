@@ -42,7 +42,7 @@ const Allapps = () => {
       </div>
 
       <div className='flex justify-between items-center my-5 flex-col lg:flex-row'>
-        <h3 className='font-bold underline text-[18px] mb-5'>({displayApps.length}) Apps found</h3>
+        <h3 className='font-bold underline text-gray-600 text-[18px] mb-5'>({displayApps.length}) Apps found</h3>
 
         <label className='input px-0 lg:px-4 flex items-center gap-2 bg-gray-100 rounded-lg'>
           <svg

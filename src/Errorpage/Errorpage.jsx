@@ -12,7 +12,10 @@ const Errorpage = () => {
                 <NavLink>
                     
                     <div className='flex justify-center items-center mt-5'>
-                <button className='btn px-16 font-bold bg-gradient-to-b from-indigo-600 to-indigo-300 text-white transition-transform duration-300 transform hover:scale-105'>Go Back !</button>
+                
+                <NavLink to="/">
+                    <button className='btn px-16 font-bold bg-gradient-to-b from-indigo-600 to-indigo-300 text-white transition-transform duration-300 transform hover:scale-105'>Go Back !</button>
+                </NavLink>
             </div>
                 </NavLink>
                 

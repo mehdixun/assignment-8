@@ -17,12 +17,12 @@ export const router = createBrowserRouter([
       {
         index: true,
         path: "/",
-        loader: () => fetch('apps.json').then(res => res.json()),
+        loader: () => fetch('/apps.json').then(res => res.json()),
         Component: Home,
       },
       {
         path: "/allapps",
-        loader: () => fetch('allapps.json').then(res => res.json()),
+        loader: () => fetch('/allapps.json').then(res => res.json()),
         Component: Allapps,
       },
       {
@@ -32,7 +32,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/appdetail/:id",
-        loader: () => fetch('allapps.json').then(res => res.json()),
+        loader: () => fetch('/allapps.json').then(res => res.json()),
         Component: Appdetail,
       },
       {
