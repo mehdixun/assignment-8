@@ -4,13 +4,13 @@ import logoImg from '../../assets/logo.png'
 const Footer = () => {
     return (
         <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
-          <div className='w-[300px] '>
+          <div className='w-[300px] ml-10 lg:ml-0'>
             <div className='flex gap-2 items-center'>
               <img className='h-[60px] w-[60px]' src={logoImg} alt="" />
-              <h1 className='font-bold text-5xl my-2'>HERO.IO </h1>
+              <h1 className='font-bold text-3xl text-indigo-500 my-2'>HERO.IO </h1>
               
             </div>
-            <p className=''>At HERO.IO, we design and build innovative apps that make everyday life smarter and easier. Our mission is to transform ideas into digital experiences that people love and trust.</p>
+            <p className='text-gray-300'>At HERO.IO, we design and build innovative apps that make everyday life smarter and easier. Our mission is to transform ideas into digital experiences that people love and trust.</p>
             </div>
   <nav className='mx-auto'>
     <h6 className="footer-title">Services</h6>

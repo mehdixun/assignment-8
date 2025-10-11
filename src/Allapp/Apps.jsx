@@ -16,7 +16,7 @@ const Allaps = ({data}) => {
                 data.map((allApp) => <Allapp key={allApp.id} allApp={allApp}></Allapp>)
             }
             </div>
-            <div className='text-center my-10 mb-20'>
+            <div className='text-center my-10 mb-50'>
                 <Link to='/allapps'>
                 <button className='btn px-16 font-bold bg-gradient-to-b from-indigo-600 to-indigo-300 text-white transition-transform duration-300 transform hover:scale-105'>Show All</button>
                 </Link>

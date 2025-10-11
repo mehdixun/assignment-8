@@ -1,23 +1,40 @@
 import React, { Suspense, useEffect, useState } from 'react';
 import Allapp from './Allapp';
+import Spinner from './Spinner';
 
 const Allapps = () => {
   const [apps, setApps] = useState([]);
   const [search, setSearch] = useState('');
+  const [loading, setLoading] = useState(true);
+  const [displayApps, setDisplayApps] = useState([]);
 
   useEffect(() => {
     fetch('/allapps.json')
       .then(res => res.json())
-      .then(data => setApps(data))
+      .then(data => {
+        setApps(data);
+        setDisplayApps(data);
+        setLoading(false);
+      });
   }, []);
 
-  const filteredApps = apps.filter(app =>
-    app.title.toLowerCase().includes(search.toLowerCase())
-  );
+  const handleSearch = (e) => {
+    const value = e.target.value;
+    setSearch(value);
+    setLoading(true);
+
+    setTimeout(() => {
+      const filtered = apps.filter(app =>
+        app.title.toLowerCase().includes(value.toLowerCase())
+      );
+      setDisplayApps(filtered);
+      setLoading(false);
+    }, 300);
+  };
 
   return (
     <div className='max-w-[1200px] mx-auto'>
-      <div className='text-center my-10'>
+      <div className='text-center my-10 mb-15'>
         <h1 className='font-bold text-[45px]'>Our All Applications</h1>
         <p className='text-gray-600'>
           Explore All Apps on the Market developed by us. We code for Millions
@@ -25,7 +42,7 @@ const Allapps = () => {
       </div>
 
       <div className='flex justify-between items-center my-5 flex-col lg:flex-row'>
-        <h3 className='font-bold underline text-[18px] mb-5'>({filteredApps.length}) Apps found</h3>
+        <h3 className='font-bold underline text-[18px] mb-5'>({displayApps.length}) Apps found</h3>
 
         <label className='input px-0 lg:px-4 flex items-center gap-2 bg-gray-100 rounded-lg'>
           <svg
@@ -46,27 +63,31 @@ const Allapps = () => {
           </svg>
           <input
             type='search'
-            placeholder='Search Apps...'
+            placeholder='Search Apps'
             className='bg-transparent outline-none w-[200px]'
             value={search}
-            onChange={(e) => setSearch(e.target.value)}
+            onChange={handleSearch}
           />
         </label>
       </div>
 
-      <Suspense fallback={<span>Apps are loading..</span>}>
-        {filteredApps.length > 0 ? (
-          <div className='grid grid-cols-1 lg:grid-cols-4 gap-1 lg:gap-4'>
-            {filteredApps.map(app => (
-              <Allapp key={app.id} allApp={app} />
-            ))}
-          </div>
-        ) : (
-          <div className='text-center text-gray-500 my-10 text-lg'>
-             No App Found
-          </div>
-        )}
-      </Suspense>
+      <div className='mt-5 mb-50'>
+        <Suspense fallback={<Spinner />}>
+          {loading ? (
+            <Spinner />
+          ) : displayApps.length > 0 ? (
+            <div className='grid grid-cols-1 lg:grid-cols-4 gap-5 lg:gap-4'>
+              {displayApps.map(app => (
+                <Allapp key={app.id} allApp={app} />
+              ))}
+            </div>
+          ) : (
+            <div className='text-center font-bold text-[50px] text-gray-600 my-10 text-lg'>
+              No App Found
+            </div>
+          )}
+        </Suspense>
+      </div>
     </div>
   );
 };

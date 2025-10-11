@@ -10,7 +10,7 @@ const Allapp = ({allApp}) => {
         <div className='transition-transform duration-300 hover:scale-105'>
             
             <Link to={`/appdetail/${id}`}>
-            <div className="card bg-base-100 shadow-sm p-3 rounded-xl h-[300px] lg:h-[340px]">
+            <div className="card bg-base-100 shadow-sm p-3 rounded-xl h-[280px] lg:h-[380px]">
   <figure className=''>
     <img className='rounded h-[100px] lg:h-[200px]' src={image} alt="" />
   </figure>
@@ -25,7 +25,7 @@ const Allapp = ({allApp}) => {
         <img className='w-[15px] h-[15px]' src={downloadImg} alt="" />
  {downloads}
  </div>
-      <div className="flex items-center gap-2 bg-orange-100 px-3 py-1 rounded text-orange-400">
+      <div className="flex items-center gap-2 bg-orange-100 px-3 py-1 rounded text-orange-300">
         <img className='w-[15px] h-[15px]' src={starImg} alt="" />
          {ratingAvg}</div>
     </div>

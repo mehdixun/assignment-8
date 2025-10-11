@@ -3,6 +3,7 @@ import logoImg from '../../assets/logo.png';
 import { FaGithub } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 
+
 const Navbar = () => {
   return (
     <div className='bg-white shadow-sm'>
@@ -25,7 +26,7 @@ const Navbar = () => {
                       to="/"
                       end
                       className={({ isActive }) =>
-                        isActive ? "text-indigo-600 underline font-semibold" : ""
+                        isActive ? "text-indigo-500 underline font-semibold" : ""
                       }
                     >
                       Home
@@ -35,7 +36,7 @@ const Navbar = () => {
                     <NavLink
                       to="/allapps"
                       className={({ isActive }) =>
-                        isActive ? "text-indigo-600 underline font-semibold" : ""
+                        isActive ? "text-indigo-500 underline font-semibold" : ""
                       }
                     >
                       Apps
@@ -45,7 +46,7 @@ const Navbar = () => {
                     <NavLink
                       to="/installation"
                       className={({ isActive }) =>
-                        isActive ? "text-indigo-600 underline font-semibold" : ""
+                        isActive ? "text-indigo-500 underline font-semibold" : ""
                       }
                     >
                       Installation
@@ -56,10 +57,10 @@ const Navbar = () => {
             </ul>
           </div>
 
-          <div className="text-xl flex items-center transition-transform duration-300 transform hover:scale-105">
+          <div className="text-xl flex items-center">
             <img className='h-[40px] w-[40px]' src={logoImg} alt="" />
             <NavLink to='/'>
-              <h3 className='text-indigo-600 font-bold ml-1'>HERO.IO</h3>
+              <h3 className='text-indigo-500 font-bold ml-1 text-2xl'>HERO.IO</h3>
             </NavLink>
           </div>
         </div>
@@ -71,7 +72,7 @@ const Navbar = () => {
                 to="/"
                 end
                 className={({ isActive }) =>
-                  `hover:underline transition-transform duration-300 transform hover:scale-105 hover:text-indigo-600 ${isActive ? "text-white bg-blue-500 font-bold" : ""}`
+                  `hover:underline transition-transform duration-300 transform hover:scale-105 ${isActive ? "bg-indigo-500 text-white shadow-md scale-105" : "hover:text-indigo-500"}`
                 }
               >
                 Home
@@ -82,7 +83,7 @@ const Navbar = () => {
               <NavLink
                 to="/allapps"
                 className={({ isActive }) =>
-                  `hover:underline transition-transform duration-300 transform hover:scale-105 hover:text-indigo-600 ${isActive ? "text-white bg-blue-500 font-bold" : ""}`
+                  `hover:underline transition-transform duration-300 transform hover:scale-105 ${isActive ? "bg-indigo-500 text-white shadow-md scale-105" : "hover:text-indigo-500"}`
                 }
               >
                 Apps
@@ -93,7 +94,7 @@ const Navbar = () => {
               <NavLink
                 to="/installation"
                 className={({ isActive }) =>
-                  `hover:underline transition-transform duration-300 transform hover:scale-105 hover:text-indigo-600 ${isActive ? "text-white font-bold bg-blue-500" : ""}`
+                  `hover:underline transition-transform duration-300 transform hover:scale-105 ${isActive ? "bg-indigo-500 text-white shadow-md scale-105" : "hover:text-indigo-500"}`
                 }
               >
                 Installation
@@ -105,7 +106,7 @@ const Navbar = () => {
         <div className="navbar-end">
           <a
             href='https://github.com/'
-            className="btn px-6 bg-gradient-to-b from-indigo-600 transition-transform duration-300 transform hover:scale-105 to-indigo-300 text-white"
+            className="btn px-6 bg-gradient-to-b from-indigo-500 to-indigo-300 transition-transform duration-300 transform hover:scale-105  text-white"
           >
             <FaGithub /> Contribute
           </a>
